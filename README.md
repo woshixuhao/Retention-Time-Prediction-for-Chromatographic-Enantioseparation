@@ -9,8 +9,8 @@ https://drive.google.com/file/d/1kzM2_pG-Ob_hNQ7ga2n6Ds2FXDeAppWx/view?usp=share
 Python==3.7
 
 #core package
-RDKit==2020.09.1.0
-pytorch==1.11.0
-pyg==2.0.4
-mordred==1.2.0
-pandas==1.3.5
+RDKit==2020.09.1.0,
+pytorch==1.11.0,
+pyg==2.0.4,
+mordred==1.2.0,
+pandas==1.3.5,
