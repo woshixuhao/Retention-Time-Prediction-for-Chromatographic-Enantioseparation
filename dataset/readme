@@ -1,1 +1,3 @@
 This is the dataset utilized in the QGeoGNN
+## The CMRT dataset is the file named All_column_charity.csv
+## Others are dataset of different columns extracted from CMRT dataset 
