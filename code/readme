@@ -1,4 +1,5 @@
 This is the code for the single-column and multi-column prediction  
-Use data_process.py to convert the SMILES to 3D mol files and generate the dataset for GeoGNN, bad_ID is the molecules that raise error when get 3D conformer. In the project, these molecules will be dropped through bad_ID  
-Use Multi_column_prediction.py to train and test the QGeoGNN model for multi-column prediction  
-Use Single_column_prediction.py to train and test the QGeoGNN model for single-column prediction  
+--->collect_dataset.py is a example to collect experimental outcomes from literature
+====Use data_process.py to convert the SMILES to 3D mol files and generate the dataset for GeoGNN, bad_ID is the molecules that raise error when get 3D conformer. In the project, these molecules will be dropped through bad_ID  
+====Use Multi_column_prediction.py to train and test the QGeoGNN model for multi-column prediction  
+====Use Single_column_prediction.py to train and test the QGeoGNN model for single-column prediction  
