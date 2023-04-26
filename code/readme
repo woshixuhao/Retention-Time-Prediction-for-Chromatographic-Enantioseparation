@@ -1,1 +1,2 @@
-This is the code for the single-column and multi-column prediction
+This is the code for the single-column and multi-column prediction  
+Use data_process.py to convert the SMILES to 3D mol files
