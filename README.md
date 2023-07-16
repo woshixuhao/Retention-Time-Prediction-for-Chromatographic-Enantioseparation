@@ -1,7 +1,7 @@
 # Retention-Time-Prediction-for-Chromatographic-Enantioseparation
 The dataset, code, and software for the paper 'Retention Time Prediction for Chromatographic Enantioseparation by Quantile Geometry-enhanced Graph Neural Network'
 
-#Please cite
+#Please cite  
 H. Xu, J. Lin, D. Zhang, F. Mo, Retention time prediction for chromatographic enantioseparation by quantile geometry-enhanced graph neural network.   Nat. Commun. 14 (2023), doi:10.1038/s41467-023-38853-3.
 
 #Our website that can predict retention times online without any code is available! Welcome to try:  
