@@ -602,7 +602,7 @@ def test(model, device, loader_atom_bond,loader_bond_angle):
         #plt.show()
 
 
-    R_square = 1 - (((y_true - y_pred) ** 2).sum() / ((y_true - y_pred.mean()) ** 2).sum())
+    R_square = 1 - (((y_true - y_pred) ** 2).sum() / ((y_true - y_true.mean()) ** 2).sum())
     test_mae=torch.mean((y_true - y_pred) ** 2)
     print(R_square)
     return y_pred, y_true,R_square,test_mae,y_pred_10,y_pred_90
