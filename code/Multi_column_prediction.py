@@ -89,9 +89,9 @@ if Use_column_info==True:
     bond_id_names.extend(['coated', 'immobilized'])
     bond_float_names.extend(['diameter'])
     if Use_geometry_enhanced==True:
-        bond_angle_float_names.extend(['column_TPSA', 'column_TPSA', 'column_TPSA', 'column_MDEC', 'column_MATS'])
+        bond_angle_float_names.extend(['column_TPSA', 'column_RASA', 'column_RPSA', 'column_MDEC', 'column_MATS'])
     else:
-        bond_float_names.extend(['column_TPSA', 'column_TPSA', 'column_TPSA', 'column_MDEC', 'column_MATS'])
+        bond_float_names.extend(['column_TPSA', 'column_RASA', 'column_RPSA', 'column_MDEC', 'column_MATS'])
     full_bond_feature_dims.extend([2,2])
 
 calc = Calculator(descriptors, ignore_3D=False)
